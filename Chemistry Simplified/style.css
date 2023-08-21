@@ -1,0 +1,49 @@
+body, html {
+    margin:0%;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    padding:0%
+}
+p {
+    color: rgb(116, 153, 153);
+}
+.items {
+  display: flex;
+  align-items: left;
+  gap: 65px;
+}
+
+.topics {
+    display: flex;
+    font-size: 1rem;
+    align-content: center;
+    gap: 650px;
+}
+    .topic-others {
+        display: flex;
+        font-size: 1rem;
+        gap: 1050px;
+
+    }
+.items button {
+    font-weight: bold;
+    background: linear-gradient(red,aqua );
+    font-size: 3rem;
+    float:left;
+}
+
+.hero-image {
+    background-image: url(https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1537198485721_mainnews2012_x1.jpg);
+    height: 60%;
+  background-repeat: repeat;
+  right: 75px;
+  left: 75px;
+}
+
+.hero-text {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 200%;
+}
+    
